@@ -16,11 +16,11 @@ window.onload = function(){
 					'width': '3vw', 
 					'height': '2vh',
 					'margin': '0.2vw',
-					// 'text-align':'center',
-					// 'vertical-align': 'middle',
-					// 'line-height' : '3vh',
 					'cursor': 'pointer',
-					'display' : 'inline-block'
+					'display' : 'inline-block',
+					// 'top': '50%',
+					// 'left': '50%',
+					// 'position':'absolute'
 					// 'border' : '3px solid black'
 					// 'position': 'fixed',
 					// 'z-index' :'2'
