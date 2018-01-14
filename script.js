@@ -1,11 +1,11 @@
 window.onload = function(){
 
 
-		var values = [ {color:"rgb(106, 204, 174)", text:"Ministry of Social Affairs and Employment", img: "card-mint.jpg"},
-					   {color:"rgb(238, 135, 199)", text:"Ministry of Finance", img: "card-pink.jpg"},
-					   {color: "rgb(255, 173, 20)", text:"Ministry of Justice and Security", img: "card-orange.jpg"},
-					   {color: "rgb(137, 101, 15)", text:"Ministry of Education, Culture and Science", img: "card-brown.jpg"},
-					   {color: "rgb(35, 79, 48)"  , text:"Ministry of Health, Welfare and Sport", img: "card-green.jpg"}
+		var values = [ {color:"rgb(106, 204, 174)", text:"MINISTRY OF SOCIAL AFFAIRS AND EMPLOYMENT", img: "card-mint.jpg"},
+					   {color:"rgb(238, 135, 199)", text:"MINISTRY OF FINANCE", img: "card-pink.jpg"},
+					   {color: "rgb(255, 173, 20)", text:"MINISTRY OF JUSTICE AND SECURITY", img: "card-orange.jpg"},
+					   {color: "rgb(137, 101, 15)", text:"MINISTRY OF EDUCATION, CULTURE AND SCIENCE", img: "card-brown.jpg"},
+					   {color: "rgb(35, 79, 48)"  , text:"MINISTRY OF HEALTH, WELFARE AND SPORT", img: "card-green.jpg"}
 					 ]; 
 
 		values.forEach(function (elem){
@@ -20,8 +20,8 @@ window.onload = function(){
 					// 'vertical-align': 'middle',
 					// 'line-height' : '3vh',
 					'cursor': 'pointer',
-					'display' : 'inline-block',
-					'border' : '3px solid black'
+					'display' : 'inline-block'
+					// 'border' : '3px solid black'
 					// 'position': 'fixed',
 					// 'z-index' :'2'
 			});
