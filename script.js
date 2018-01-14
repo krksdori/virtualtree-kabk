@@ -1,24 +1,24 @@
 window.onload = function(){
 
 
-		var values = [ {color:"rgb(106, 204, 174)", text:"", img: "card-mint.jpg"},
-					   {color:"rgb(238, 135, 199)", text:"", img: "card-pink.jpg"},
-					   {color: "rgb(255, 173, 20)", text:"", img: "card-orange.jpg"},
-					   {color: "rgb(137, 101, 15)", text:"", img: "card-brown.jpg"},
-					   {color: "rgb(35, 79, 48)"  , text:"", img: "card-green.jpg"}
+		var values = [ {color:"rgb(106, 204, 174)", text:"Ministry of Social Affairs and Employment", img: "card-mint.jpg"},
+					   {color:"rgb(238, 135, 199)", text:"Ministry of Finance", img: "card-pink.jpg"},
+					   {color: "rgb(255, 173, 20)", text:"Ministry of Justice and Security", img: "card-orange.jpg"},
+					   {color: "rgb(137, 101, 15)", text:"Ministry of Education, Culture and Science", img: "card-brown.jpg"},
+					   {color: "rgb(35, 79, 48)"  , text:"Ministry of Health, Welfare and Sport", img: "card-green.jpg"}
 					 ]; 
 
 		values.forEach(function (elem){
-			var buttonDiv = $("<div>"+elem.text+"</div>");
+			var buttonDiv = $("<div></div>");
 			$("#button-container").append(buttonDiv);
             buttonDiv.css({
 					'background-color': elem.color,
 					'width': '3vw', 
 					'height': '2vh',
 					'margin': '0.2vw',
-					'text-align':'center',
-					'vertical-align': 'middle',
-					'line-height' : '3vh',
+					// 'text-align':'center',
+					// 'vertical-align': 'middle',
+					// 'line-height' : '3vh',
 					'cursor': 'pointer',
 					'display' : 'inline-block',
 					'border' : '3px solid black'
@@ -29,8 +29,8 @@ window.onload = function(){
             $(buttonDiv).click(function() {
  			    $('#form-wrap').css({
  			    	'background-color': elem.color
-
  			    })
+ 			    $("#ministry").text(elem.text);
 			});
 
 
