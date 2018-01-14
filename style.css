@@ -1,9 +1,133 @@
-#tree-img{
+@font-face {
+    font-family: cyclone;
+    src: url(cyclone.otf);
+}
+
+body {
+	margin:0px;
+}
+
+div {
+	font-family: cyclone;
+	font-size: 24px;
+}
+
+h1{
+	letter-spacing: 2px;
+	font-size: 34px;
+	line-height: 34px;
+}
+
+h3 {
+
+	letter-spacing: 1px;
+	font-size: 24px;
+	line-height: 24px;
+
+}
+
+#page-wrap {
+	padding-left: 20px;
+}
+
+#form-wrap {
+	background-color: lightgrey;
+	width: 30%;
+/*	border: 3px solid red;*/
+	padding: 20px;
+	text-align: center;
+
+}
+
+#style-wrap {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+#img-container {
+	position:absolute;
+	top:0px;
+	right: 0px;
+	min-width: 60%;
+	min-height: 100%;
+}
+
+.added-form{
+	width: 40px;
+	z-index: 10;
+}
+
+textarea {
+	-webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+	outline: none;
+	width: 98%;
+	resize: none;
+	font-family: sans-serif;
+	font-size: 2vh;
+	border: none;
+}
+
+#textarea-one {
+	height: 7vh;
+
+}
+
+#textarea-two {
+	height: 14vh;
+
+}
+
+.input{
+	outline: none;
+}
+
+
+
+#tree-img {
   position: absolute;
   top: 50%;
-  left: 50%;
-  width: 500px;
-  height: 500px;
-  margin-top: -250px; /* Half the height */
-  margin-left: -250px; /* Half the width */
+  left: 70%;
+  width: 800px;
+  height: 800px;
+  margin-top: -400px; /* Half the height */
+  margin-left: -400px; 
+}
+
+#create-card {
+	background-color: white;
+	border: 3px solid black;
+	width: 7vw;
+	height: 6vh;
+	margin: 0.2vw;
+	vertical-align: center;
+	padding-top: 12px;
+	text-align: center;
+	position: absolute;
+	cursor: pointer;
+}
+
+#create-card:hover {
+	background-color: black;
+	color:white;
+	border: 3px solid white;
+}
+
+#logo-img {
+	padding-top: 10px;
+	width: 20%;
+}
+
+
+.note{
+	position: absolute;
+	border: 3px solid black;
+	width: 7vw;
+	height: 6vh;
+	margin: 0.2vw;
+	vertical-align: center;
+	padding-top: 12px;
+/*	background-color: black;
 }
